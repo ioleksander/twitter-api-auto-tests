@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="5" data-provider-thread-count="1">
+    <test name="HomeTimeline">
+        <classes>
+            <class name="com.twitter.api.update.UpdateTests"/>
+            <class name="com.twitter.api.destroy.DestroyTests"/>
+            <class name="com.twitter.api.timeline.HomeTimelineTests"/>
+        </classes>
+    </test>
+</suite>

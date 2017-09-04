@@ -1,1 +1,7 @@
-# twitter-api-auto-tests
+Twitter API Auto Tests
+============
+
+* Java
+* Maven
+* TestNG
+* Rest-Assured
